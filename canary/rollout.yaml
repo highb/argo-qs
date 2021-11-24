@@ -14,7 +14,7 @@ spec:
       containers:
         - image: hashicorp/http-echo
           args:
-            - "-text=Canary v2000"
+            - "-text=Canary v2001: A Space Oddity"
             - -listen=:8080
           imagePullPolicy: Always
           name: echo-v1
